@@ -3,12 +3,6 @@
 
 from setuptools import setup
 
-with open('README.rst') as readme_file:
-    readme = readme_file.read()
-
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
-
 requirements = []
 test_requirements = ['unittest2']
 
@@ -16,15 +10,10 @@ setup(
     name='pystatuschecker',
     version='0.1.1',
     description="A very simple package for checking the status of a service and its components",
-    long_description=readme + '\n\n' + history,
     author="Tim Martin",
     author_email='tim@timmartin.me',
-    url='https://github.com/timmartin19/status_checker',
-    extras_require={
-        'dev': ['zest.releaser']
-    },
+    url='https://github.com/timmartin19/pystatuschecker',
     py_modules=['status_checker'],
-    include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
