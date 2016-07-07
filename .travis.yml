@@ -17,6 +17,6 @@ deploy:
   password:
     secure: eNejHk7/sUXus31de+Ei0HOzLvbjfwjC9e4qGaB+8eAG/keLym9iMDPDwprIaUke8rtyS8uJN2QGWv6Kg0dOTgqdgs/RvcgjdcZbZo6iaNrww80fdoHOxvCaI1X1hdCPIUirfp/lSq9A2ybqLTMR83D5Hk6WvtOx764oFDvv7W3kXo4sKCzpaJzZ6kXsvowPNJeBDbOjHpbunvTvq1v0/S/IKkEPZTrwghe7BF4rX9cmHJ4eYItUwVvxYvDTNmt+mXG5DTUZX2bWUsSHjRIhh0rj6/IdLAxh/WgRVkSlG404m6iw4P8Q84XPiyAPb1xGiXQKOLcXelLa6L8ZcdQGezfNFoEk7GNZhFs12yet18dPPPEh3XChNaAOJVxmQhxtI7W1sNI6M1qjIGqRmfMODOb5+bbMK4XqISZcA1ulWSgG4bdeQL7YvISJubPO1YRtXqifEsPk5vihwo/f8CLMrP5FlIFA3aRIHZZp1EcNGunTRwJG5GwH1rFcyJxAehkllBBlf+yamL/b2wgWiqBlzq5q57giQ7oRra2ar3xp5q7Oj6QBIHLH1h9wfG20w5yv36ROD6JmRA6jNoNfb/ThjGJEPpOJYYhXUoeBg3e5Cu+lDPAnKa7USIlbbqndk7FSnLwlcLGvNq+oPMKf9bWHWGNgOgJxQSILqefWTSLyetY=
   on:
-    branch: true
+    branch: master
     repo: timmartin19/status_checker
     condition: $TOXENV == py27
