@@ -14,7 +14,7 @@ test_requirements = ['unittest2']
 
 setup(
     name='pystatuschecker',
-    version='0.1.0',
+    version='0.1.1',
     description="A very simple package for checking the status of a service and its components",
     long_description=readme + '\n\n' + history,
     author="Tim Martin",
