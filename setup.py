@@ -8,7 +8,7 @@ test_requirements = ['unittest2']
 
 setup(
     name='py-status-checker',
-    version='0.1.1',
+    version='0.1.2',
     description="A very simple package for checking the status of a service and its components",
     author="Tim Martin",
     author_email='tim@timmartin.me',
