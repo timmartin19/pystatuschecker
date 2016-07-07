@@ -1,6 +1,6 @@
-===============================
+==============
 Status Checker
-===============================
+==============
 
 
 .. image:: https://img.shields.io/pypi/v/status_checker.svg
@@ -25,16 +25,31 @@ A very simple package for checking the status of a service and its components
 * Documentation: https://status-checker.readthedocs.io.
 
 
-Features
+Examples
 --------
 
-* TODO
+.. code-block:: python
+
+    from status_checker import StatusChecker
+
+    def check_database(config):
+        # ... check if it's up and either return a dictionary like
+        # {'available': <bool>} or throw an exception
+
+    def check_other_service(config):
+        # ... same as above
+
+    status_checker = StatusChecker(database=check_database, other_service=check_other_service)
+    status_dict = status_checker.status(config)
+
+The status_dict include the state of the components
+in the 'components' key, the `failure_count`, and the `status`
+of the service as a whole
 
 Credits
----------
+-------
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
-
