@@ -3,18 +3,18 @@ Status Checker
 ==============
 
 
-.. image:: https://img.shields.io/pypi/v/status_checker.svg
-        :target: https://pypi.python.org/pypi/status_checker
+.. image:: https://img.shields.io/pypi/v/pystatuschecker.svg
+        :target: https://pypi.python.org/pypi/pystatuschecker
 
-.. image:: https://img.shields.io/travis/timmartin19/status_checker.svg
-        :target: https://travis-ci.org/timmartin19/status_checker
+.. image:: https://img.shields.io/travis/timmartin19/pystatuschecker.svg
+        :target: https://travis-ci.org/timmartin19/pystatuschecker
 
-.. image:: https://readthedocs.org/projects/status-checker/badge/?version=latest
+.. image:: https://readthedocs.org/projects/pystatuschecker/badge/?version=latest
         :target: https://status-checker.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/timmartin19/status_checker/shield.svg
-     :target: https://pyup.io/repos/github/timmartin19/status_checker/
+.. image:: https://pyup.io/repos/github/timmartin19/pystatuschecker/shield.svg
+     :target: https://pyup.io/repos/github/timmartin19/pystatuschecker/
      :alt: Updates
 
 
@@ -22,7 +22,7 @@ A very simple package for checking the status of a service and its components
 
 
 * Free software: MIT license
-* Documentation: https://status-checker.readthedocs.io.
+* Documentation: https://pystatuschecker.readthedocs.io.
 
 
 Examples
